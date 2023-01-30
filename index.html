@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splonker</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        html{
+            background: black;
+            align-items: center;
+            text-align: center;
+            color: white;
+            position: absolute;
+         }
+         body {
+            overflow: hidden; /* Hide scrollbars */
+        }
+        #canvas{
+            background: black;
+            min-width: 512px;
+            min-height: 512px;
+        }
+        div{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div>
+        <img src="./images/New Piskel(2).png" id="titleBackground">
+    </div>
+
+    <script type='module' src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/debugInterface.js" ></script>
+    <script type="module" src="./scripts/gameObject/gameObject.js"></script>
+</body>
+</html>
